@@ -49,9 +49,10 @@ const Layout = ({ children, count }) => (
         <section className="main hero is-primary is-medium">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title">GitHub Actions</h1>
-              <h2 className="subtitle"> An open source list of actions.</h2>
-              <p>Just click on an action below to get started.</p>
+              <h1 className="title">GitHub Actions List</h1>
+              <h2 className="subtitle">
+                Automate your workflow from idea to production.
+              </h2>
               <a
                 className="button is-large add-action"
                 href="https://github.com/boyney123/github-actions/blob/master/CONTRIBUTING.md#adding-your-configuration-to-github-actions"
@@ -60,6 +61,10 @@ const Layout = ({ children, count }) => (
                 <i class="fab fa-github" />
                 Add an action
               </a>
+              <p className="mt20">
+                Currently listing <strong>{count}</strong> actions and
+                counting...
+              </p>
               <div className="badges">
                 <a
                   href="https://twitter.com/intent/tweet?text=Check%20out%20this%20GitHub%20action%20list%20from%20%40boyney123%20https%3A%2F%2Fgithub-actions.netlify.com"
