@@ -3,7 +3,7 @@ path: '/jenkins-single-shot'
 title: 'POC for Jenkins Single-shot master'
 github_url: 'https://github.com/jonico/jenkinsfile-runner-github-actions'
 author: 'jonico'
-tags: []
+tags: ['jenkins']
 subtitle: 'This is a POC how to run Jenkins Single-shot masters inside a GitHub Action Workflow.'
 ---
 

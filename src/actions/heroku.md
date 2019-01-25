@@ -3,7 +3,7 @@ path: '/heroku-cli'
 title: 'Heroku CLI'
 github_url: 'https://github.com/actions/heroku'
 author: 'github'
-tags: ['github']
+tags: ['heroku', 'cli']
 subtitle: 'This Action wraps the Heroku CLI to enable common Heroku commands.'
 ---
 

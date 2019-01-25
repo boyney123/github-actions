@@ -3,7 +3,7 @@ path: '/vscode-vsce'
 title: 'vscode deploying extensions'
 github_url: 'https://github.com/lannonbr/vsce-action'
 author: 'lannonbr'
-tags: []
+tags: ['vscode']
 subtitle: 'A GitHub Action to automate deploying VS Code extensions by using vsce. It will enable workflows to easily deploy your VS Code extensions to the marketplace.'
 ---
 

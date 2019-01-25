@@ -3,7 +3,7 @@ path: '/shaking-finger'
 title: 'Shaking Finger'
 github_url: 'https://github.com/jessfraz/shaking-finger-action'
 author: 'jessfraz'
-tags: []
+tags: ['gif', 'fun']
 subtitle: 'A GitHub action that displays a gif of Conan O`Brien shaking his finger to a pull request on fail. It will also automatically clean up the comment when the build passes :)'
 ---
 

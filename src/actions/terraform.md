@@ -3,7 +3,7 @@ path: '/terraform'
 title: 'Terraform'
 github_url: 'https://github.com/hashicorp/terraform-github-actions/blob/master/README.md'
 author: 'hashicorp'
-tags: []
+tags: ['terraform']
 subtitle:
   'These official Terraform GitHub Actions allow you to run `terraform fmt`, `validate`
   and `plan` on your pull requests to help you review and validate Terraform changes.'

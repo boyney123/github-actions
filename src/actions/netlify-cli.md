@@ -3,7 +3,7 @@ path: '/netlify-cli'
 title: 'Netlify: CLI'
 github_url: 'https://github.com/netlify/actions'
 author: 'netlify'
-tags: []
+tags: ['netlify', 'cli']
 subtitle: 'This Action enables arbitrary actions with the Netlify CLI'
 ---
 

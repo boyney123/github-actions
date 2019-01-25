@@ -3,7 +3,7 @@ path: '/cake-tasks'
 title: 'Cake Tasks'
 github_url: 'https://github.com/gep13/cake-actions'
 author: 'gep13'
-tags: ['github']
+tags: []
 subtitle: 'These Cake GitHub Actions allow you to run Cake tasks as part of your GitHub workflow..'
 ---
 

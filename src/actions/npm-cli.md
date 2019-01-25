@@ -3,7 +3,7 @@ path: '/npm-cli'
 title: 'NPM Cli'
 github_url: 'https://github.com/actions/npm'
 author: 'GitHub'
-tags: []
+tags: ['cli']
 subtitle: 'This Action for npm enables arbitrary actions with the npm command-line client, including testing packages and publishing to a registry.'
 ---
 

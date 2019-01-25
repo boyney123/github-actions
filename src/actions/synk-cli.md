@@ -3,7 +3,7 @@ path: '/synk-cli'
 title: 'Synk Cli'
 github_url: 'https://github.com/clarkio/snyk-cli-action'
 author: 'clarkio'
-tags: []
+tags: ['security']
 subtitle: 'A GitHub action to run snyk test for vulnerabilities in the project'
 ---
 

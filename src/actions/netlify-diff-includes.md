@@ -3,7 +3,7 @@ path: '/netlify-diff-includes'
 title: 'Netlify: Diff Includes Filter'
 github_url: 'https://github.com/netlify/actions'
 author: 'netlify'
-tags: []
+tags: ['netlify']
 subtitle: '
 This action includes a filter to stop workflows unless certain files or directories are changed in a range of commits.'
 ---

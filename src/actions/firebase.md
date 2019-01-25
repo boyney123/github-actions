@@ -3,7 +3,7 @@ path: '/firebase'
 title: 'Firebase'
 github_url: 'https://github.com/w9jds/firebase-action'
 author: 'w9jds'
-tags: ['github']
+tags: ['firebase']
 subtitle: 'This Action for firebase-tools enables arbitrary actions with the firebase command-line client..'
 ---
 

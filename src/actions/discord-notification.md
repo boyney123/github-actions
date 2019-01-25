@@ -3,7 +3,7 @@ path: '/discord-notification'
 title: 'Discord Notification'
 github_url: 'https://github.com/Ilshidur/action-discord'
 author: 'Ilshidur'
-tags: ['github']
+tags: ['discord', 'notification']
 subtitle: 'Sends a Discord notification message. Simple as that. Supports all workflow event types by using the Discord GitHub webhooks.'
 ---
 

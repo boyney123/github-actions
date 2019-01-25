@@ -3,7 +3,7 @@ path: '/rebase-pr'
 title: 'Automaticly rebase pull requests'
 github_url: 'https://github.com/cirrus-actions/rebase'
 author: 'cirrus-actions'
-tags: []
+tags: ['pull-request', 'github']
 subtitle: 'GitHub action to automatically rebase pull requests.'
 ---
 

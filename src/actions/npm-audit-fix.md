@@ -3,7 +3,7 @@ path: '/npm-audit-fix'
 title: 'npm Audit Fix'
 github_url: 'https://github.com/JasonEtco/npm-audit-fix-action'
 author: 'JasonEtco'
-tags: []
+tags: ['npm', 'pull-request']
 subtitle: 'Work in progress GitHub Action that opens a pull request following an npm audit fix --forcey.'
 ---
 

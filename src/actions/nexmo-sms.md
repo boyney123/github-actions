@@ -3,7 +3,7 @@ path: '/nexmo-sms'
 title: 'Nexmo SMS'
 github_url: 'https://github.com/nexmo-community/nexmo-sms-action'
 author: 'nexmo-community'
-tags: []
+tags: ['sms', 'nexmo']
 subtitle: 'Send an SMS from GitHub Actions using Nexmo. The passed in args represent the contents of the message.'
 ---
 

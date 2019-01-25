@@ -3,7 +3,7 @@ path: '/yarn'
 title: 'Yarn'
 github_url: 'https://github.com/Borales/actions-yarn'
 author: 'Borales'
-tags: []
+tags: ['yarn', 'npm']
 subtitle: 'This Action for yarn enables arbitrary actions with the yarn command-line client, including testing packages and publishing to a registry.'
 ---
 

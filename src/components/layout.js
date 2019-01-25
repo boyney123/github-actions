@@ -7,7 +7,7 @@ import Navigation from './Navigation'
 import Footer from './Footer'
 import './layout.css'
 
-const Layout = ({ children, count }) => (
+const Layout = ({ children, count, handleFilter = () => {} }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -50,9 +50,18 @@ const Layout = ({ children, count }) => (
           <div className="hero-body">
             <div className="container has-text-centered">
               <h1 className="title">GitHub Actions List</h1>
+
               <h2 className="subtitle">
                 Automate your workflow from idea to production.
               </h2>
+              <div>
+                <input
+                  id="search"
+                  className="input is-large"
+                  onChange={handleFilter}
+                  placeholder="Find an Action (e.g Pull Request, Docker, AWS)"
+                />
+              </div>
               <a
                 className="button is-large add-action"
                 href="https://github.com/boyney123/github-actions/blob/master/CONTRIBUTING.md#adding-your-configuration-to-github-actions"
@@ -99,6 +108,7 @@ const Layout = ({ children, count }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  setFilter: PropTypes.func,
 }
 
 export default Layout

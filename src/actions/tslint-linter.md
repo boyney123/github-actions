@@ -3,7 +3,7 @@ path: '/tslint-linter'
 title: 'TypeScript linter & formatter'
 github_url: 'https://github.com/bltavares/actions'
 author: 'bltavares'
-tags: []
+tags: ['lint']
 subtitle: 'This actions will check Typescript projects using tslint'
 ---
 

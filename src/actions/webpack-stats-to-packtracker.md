@@ -3,7 +3,7 @@ path: '/webpack-stats-to-packtracker'
 title: 'Webpack stats to packtracker.io'
 github_url: 'https://github.com/packtracker/github-action'
 author: 'packtracker'
-tags: []
+tags: ['webpack']
 subtitle: 'This GitHub action will upload your webpack build stats to the packtracker.io service.'
 ---
 

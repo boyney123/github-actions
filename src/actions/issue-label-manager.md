@@ -3,7 +3,7 @@ path: '/issue-label-manager'
 title: 'Issue Label Manager'
 github_url: 'https://github.com/lannonbr/issue-label-manager-action'
 author: 'lannonbr'
-tags: []
+tags: ['github', 'labels', 'automation']
 subtitle: 'This GitHub Action allows you to declaratively state the labels to be defined in a repo.'
 ---
 
