@@ -659,6 +659,29 @@ pre tt:after {
   margin-right: 5px;
 }
 
+@media (max-width: 500px) {
+  .main .title {
+    font-size: 2rem;
+  }
+
+  .main .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .main .input {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .main .input::placeholder {
+    font-size: 1rem;
+  }
+
+  .main .button.is-large {
+    font-size: 1.2rem;
+  }
+}
+
 .badges .badges__twitter {
   width: 75px;
 }
