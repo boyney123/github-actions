@@ -32,7 +32,7 @@ const AcitonCard = ({ path, title, author, subtitle, github_url } = {}) => {
           <p>{subtitle}</p>
         </div>
         <div className="action-card__footer">
-          <span>View</span>
+          <span>Read more</span>
         </div>
       </div>
     </div>
