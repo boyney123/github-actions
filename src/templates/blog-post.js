@@ -31,6 +31,9 @@ export default function Template({ data }) {
         <html lang="en" />
       </Helmet>
       <div className="blog-post container">
+        <a className="back-button button" href="/">
+          <i class="fas fa-arrow-left" /> Back
+        </a>
         <h1>{title}</h1>
         <p>{subtitle}</p>
 

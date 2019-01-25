@@ -6,6 +6,10 @@
   padding: 0 60px;
 }
 
+.blog-post .back-button i {
+  margin-right: 10px;
+}
+
 .blog-post a {
   color: #926cb9;
   margin-right: 10px;

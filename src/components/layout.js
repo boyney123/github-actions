@@ -56,7 +56,7 @@ const Layout = ({ children, count, handleFilter = () => {} }) => (
               </h2>
               <div>
                 <input
-                  id="search"
+                  id="search-action"
                   className="input is-large"
                   onChange={handleFilter}
                   placeholder="Find an Action (e.g Pull Request, Docker, AWS)"
