@@ -25,8 +25,6 @@ class IndexPage extends Component {
                 repoPath
               )}.svg?style=social`
 
-              console.log(starBadgeUrl)
-
               return (
                 <ActionCard
                   path={path}
