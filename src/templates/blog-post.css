@@ -1,0 +1,12 @@
+.container.blog-post {
+  margin-top: 80px;
+}
+
+.blog-post a {
+  color: #926cb9;
+  margin-right: 10px;
+}
+
+.blog-post hr {
+  margin: 40px 0;
+}

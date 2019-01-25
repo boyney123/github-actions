@@ -1,0 +1,9 @@
+footer p {
+  margin-bottom: 10px;
+}
+
+.footer {
+  color: #797676;
+  font-size: 1.3em;
+  padding: 3rem 1.5rem 3rem !important;
+}

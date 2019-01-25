@@ -1,0 +1,30 @@
+---
+path: '/terraform'
+title: 'Terraform'
+github_url: 'https://github.com/hashicorp/terraform-github-actions/blob/master/README.md'
+author: 'hashicorp'
+subtitle:
+  'These official Terraform GitHub Actions allow you to run `terraform fmt`, `validate`
+  and `plan` on your pull requests to help you review and validate Terraform changes.'
+---
+
+## Getting Started
+
+To get started, check out our documentation: [https://www.terraform.io/docs/github-actions/getting-started/](https://www.terraform.io/docs/github-actions/getting-started/).
+
+## Actions
+
+### Fmt Action
+
+Runs `terraform fmt` and comments back if any files are not formatted correctly.
+<img src="https://github.com/hashicorp/terraform-github-actions/raw/master/assets/fmt.png" alt="Terraform Fmt Action" width="80%" />
+
+### Validate Action
+
+Runs `terraform validate` and comments back on error.
+<img src="https://github.com/hashicorp/terraform-github-actions/raw/master/assets/validate.png" alt="Terraform Validate Action" width="80%" />
+
+### Plan Action
+
+Runs `terraform plan` and comments back with the output.
+<img src="https://github.com/hashicorp/terraform-github-actions/raw/master/assets/plan.png" alt="Terraform Plan Action" width="80%" />
