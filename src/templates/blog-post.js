@@ -12,15 +12,13 @@ export default function Template({ data }) {
   const { title, subtitle, github_url, twitter } = frontmatter
   return (
     <Layout className="blog-post-container">
-      <Helmet title={`Github-Actions-List - ${frontmatter.title}`} />
+      <Helmet title={`Github-Actions - ${frontmatter.title}`} />
       <div className="blog-post container">
         <h1>{title}</h1>
         <p>{subtitle}</p>
+
         <a href={`${github_url}`} target="_blank">
-          <i class="fab fa-github fa-2x" />
-        </a>
-        <a href={`https://www.twitter.com/${twitter}`} target="_blank">
-          <i class="fab fa-twitter fa-2x" />
+          {github_url}
         </a>
 
         <hr />

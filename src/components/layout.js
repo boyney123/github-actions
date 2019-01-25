@@ -53,7 +53,7 @@ const Layout = ({ children, count }) => (
               <h2 className="subtitle"> An open source list of actions.</h2>
               <a
                 className="button is-large add-action"
-                href="https://github.com/boyney123/github-actions-list/blob/master/CONTRIBUTING.md#adding-your-configuration-to-github-actions-list"
+                href="https://github.com/boyney123/github-actions/blob/master/CONTRIBUTING.md#adding-your-configuration-to-github-actions"
                 target="_blank"
               >
                 <i class="fab fa-github" />
