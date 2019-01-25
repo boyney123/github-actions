@@ -1,6 +1,6 @@
 ---
-path: '/branch-cleanup'
-title: 'Branch Cleanup'
+path: '/a-branch-cleanup'
+title: 'A Branch Cleanup'
 github_url: 'https://github.com/jessfraz/branch-cleanup-action'
 author: 'jessfraz'
 subtitle: 'A GitHub action to automatically delete the branch after a pull request has been merged.'
@@ -35,14 +35,3 @@ action "branch cleanup" {
 ```
 
 ![demo](https://github.com/jessfraz/branch-cleanup-action/raw/master/demo.png)
-
-## Contributing
-
-### Running the tests
-
-The tests use [shellcheck](https://github.com/koalaman/shellcheck). You don't
-need to install anything. They run in a container.
-
-```console
-$ make test
-```

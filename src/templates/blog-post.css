@@ -2,6 +2,10 @@
   margin-top: 80px;
 }
 
+.blog-post {
+  padding: 0 60px;
+}
+
 .blog-post a {
   color: #926cb9;
   margin-right: 10px;
