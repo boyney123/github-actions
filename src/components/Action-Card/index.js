@@ -26,12 +26,13 @@ const AcitonCard = ({ path, title, author, subtitle, github_url } = {}) => {
         <div className="action-card__header">
           <h4>{title}</h4>
           <p>by {author}</p>
+          <img src={starBadgeUrl} />
         </div>
         <div className="action-card__body">
           <p>{subtitle}</p>
         </div>
         <div className="action-card__footer">
-          <img src={starBadgeUrl} />
+          <span>View</span>
         </div>
       </div>
     </div>

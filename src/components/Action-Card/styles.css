@@ -71,8 +71,9 @@
   padding: 24px 32px;
 }
 
-.action-card__footer img {
+.action-card__header img {
   width: 100px;
+  margin-bottom: 0;
 }
 
 .action-card:after {
