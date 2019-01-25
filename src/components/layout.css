@@ -632,6 +632,12 @@ pre tt:after {
 .main .subtitle {
   color: white;
   font-size: 2rem;
+  margin-bottom: 0 !important;
+}
+
+.main p {
+  font-style: italic;
+  margin-bottom: 20px;
 }
 
 .main.hero .badges {

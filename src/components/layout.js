@@ -51,6 +51,7 @@ const Layout = ({ children, count }) => (
             <div className="container has-text-centered">
               <h1 className="title">GitHub Actions</h1>
               <h2 className="subtitle"> An open source list of actions.</h2>
+              <p>Just click on an action below to get started.</p>
               <a
                 className="button is-large add-action"
                 href="https://github.com/boyney123/github-actions/blob/master/CONTRIBUTING.md#adding-your-configuration-to-github-actions"
