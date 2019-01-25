@@ -1,0 +1,11 @@
+nav.navbar {
+  background: #423a3a;
+  color: white;
+  padding: 0 70px;
+}
+
+nav.navbar h1,
+nav.navbar a {
+  color: white;
+  float: right;
+}
