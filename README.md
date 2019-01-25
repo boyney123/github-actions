@@ -1,5 +1,5 @@
-# Devs Use
+# GitHub Actions
 
-Open source project where developers can share there development setup.
+Open souce project where developers can share GitHub actions.
 
-[github-actions.netlify.com](github-actions.netlify.com)
+[github-actions.netlify.com](https://github-actions.netlify.com)
