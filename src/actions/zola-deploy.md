@@ -3,6 +3,7 @@ path: '/zola-deploy'
 title: 'Zola Deploy'
 github_url: 'https://github.com/shalzz/zola-deploy-action'
 author: 'shalzz'
+tags: []
 subtitle: 'A GitHub action to automatically build and deploy your zola site to the master branch as GitHub Pages.'
 ---
 

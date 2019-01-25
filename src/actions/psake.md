@@ -3,6 +3,7 @@ path: '/psake-tasks'
 title: 'Run psake tasks'
 github_url: 'https://github.com/devblackops/psake-github-action'
 author: 'devblackops'
+tags: []
 subtitle: 'This official psake GitHub Action allow you to run psake tasks as part of your GitHub workflow.'
 ---
 

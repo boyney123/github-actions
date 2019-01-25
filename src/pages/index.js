@@ -11,6 +11,7 @@ class IndexPage extends Component {
 
     return (
       <Layout count={edges.length}>
+        <input />
         <div className="container is-fluid">
           <div className="columns is-multiline">
             {edges.map(({ node = {} }) => {
@@ -52,6 +53,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             path
+            tags
             author
             subtitle
             github_url

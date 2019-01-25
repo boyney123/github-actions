@@ -3,6 +3,7 @@ path: '/hugo-to-github-pages'
 title: 'Build Hugo static content site and publish it to gh-pages branch'
 github_url: 'https://github.com/khanhicetea/gh-actions-hugo-deploy-gh-pages'
 author: 'khanhicetea'
+tags: []
 subtitle: 'GitHub Action for building and publishing Hugo-built site.'
 ---
 

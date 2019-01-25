@@ -3,6 +3,7 @@ path: '/assignee-to-reviewer'
 title: 'Set pull request reviewers based on assignees'
 github_url: 'https://github.com/pullreminders/assignee-to-reviewer-action'
 author: 'pullreminders'
+tags: ['github']
 subtitle: 'If your team currently uses pull request Assignees but would like to switch to Review Requests, having everyone change their workflows can be difficult. This GitHub Action eases the transition by automatically creating and removing review requests based on Assignees.'
 ---
 
@@ -27,4 +28,3 @@ action "Assignee to reviewer" {
 ## Demo
 
 <img src="https://github.com/pullreminders/assignee-to-reviewer-action/raw/master/docs/images/example.png" width="540">
-

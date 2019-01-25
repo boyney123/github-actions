@@ -3,6 +3,7 @@ path: '/ssh'
 title: 'SSH'
 github_url: 'https://github.com/maddox/actions'
 author: 'maddox'
+tags: []
 subtitle: 'Run a thing on your server. This action will run the provided argument as a command on your $HOST via SSH.'
 ---
 

@@ -3,6 +3,7 @@ path: '/php-stan'
 title: 'PHPStan'
 github_url: 'https://github.com/OskarStark/phpstan-ga'
 author: 'OskarStark'
+tags: []
 subtitle: 'PHPStan Static code analyzer Action.'
 ---
 

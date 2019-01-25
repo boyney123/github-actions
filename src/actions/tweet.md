@@ -3,6 +3,7 @@ path: '/twitter-action'
 title: 'Send a Tweet'
 github_url: 'https://github.com/xorilog/twitter-action'
 author: 'xorilog'
+tags: []
 subtitle: 'Send a tweet with a GitHub Action.'
 ---
 

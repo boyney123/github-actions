@@ -3,6 +3,7 @@ path: '/ember-cli'
 title: 'Ember Cli'
 github_url: 'https://github.com/NuckChorris/ember-cli-actions'
 author: 'NuckChorris'
+tags: ['github']
 subtitle: 'This Action for ember-cli enables arbitrary actions with the ember-cli command-line client, including deploying ember applications with ember-cl-deploy.'
 ---
 

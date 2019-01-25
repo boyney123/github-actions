@@ -3,6 +3,7 @@ path: '/cloudflare-workder'
 title: 'Cloudflare worker'
 github_url: 'https://github.com/cpilsworth/cloudflare-worker-action'
 author: 'cpilsworth'
+tags: ['github']
 subtitle: 'A GitHub action to deploy a Cloudflare Worker on push to the master branch.'
 ---
 

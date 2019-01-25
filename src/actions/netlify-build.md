@@ -3,6 +3,7 @@ path: '/netlify-build'
 title: 'Netlify: Build'
 github_url: 'https://github.com/netlify/actions'
 author: 'netlify'
+tags: []
 subtitle: 'Trigger a build on Netlify, if there is no site for this repo it can automagically set up one with the specified base directory, command, and publish directory.'
 ---
 

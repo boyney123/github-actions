@@ -3,6 +3,7 @@ path: '/azure'
 title: 'Azure'
 github_url: 'https://github.com/Azure/github-actions'
 author: 'Azure'
+tags: ['github']
 subtitle: 'This Action for Azure enables arbitrary actions for interacting with Azure services via the az command-line client.'
 ---
 

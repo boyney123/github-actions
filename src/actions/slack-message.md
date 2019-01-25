@@ -3,6 +3,7 @@ path: '/slack-message'
 title: 'Slack message'
 github_url: 'https://github.com/apex/actions'
 author: 'apex'
+tags: []
 subtitle: 'GitHub Action for sending Slack messages which were defined by previous action(s) in ./slack.json.'
 ---
 

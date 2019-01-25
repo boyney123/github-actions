@@ -3,6 +3,7 @@ path: '/publish-wordpress-plugin'
 title: 'Publish WordPress plugin'
 github_url: 'https://github.com/lubusIN/actions'
 author: 'lubusIN'
+tags: []
 subtitle: 'Github action to publish your WordPress plugin to wordpress.org plugin repository. Develop plugin on github and once done tag the release, sit back and relax. WordPress action will publish the release to wordpress.org SVN and create SVN tag based on the github release tag.'
 ---
 

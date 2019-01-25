@@ -3,6 +3,7 @@ path: '/spothub'
 title: 'SpotHub'
 github_url: 'https://github.com/swinton/SpotHub'
 author: 'swinton'
+tags: []
 subtitle: 'Collaborate on Spotify playlists using Pull Requests.'
 ---
 

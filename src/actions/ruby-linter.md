@@ -3,6 +3,7 @@ path: '/ruby-linter'
 title: 'Powershell formatter'
 github_url: 'https://github.com/bltavares/actions'
 author: 'bltavares'
+tags: []
 subtitle: 'This action will check the formating of the Dockerfiles in the project, using rubocop.'
 ---
 

@@ -3,6 +3,7 @@ path: '/php-code-fixer'
 title: 'PHP Code Fixer'
 github_url: 'https://github.com/OskarStark/php-cs-fixer-ga'
 author: 'OskarStark'
+tags: []
 subtitle: 'Github Action for PHP-CS-Fixer.'
 ---
 

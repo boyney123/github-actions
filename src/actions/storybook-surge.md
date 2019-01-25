@@ -3,6 +3,7 @@ path: '/storybook-surge'
 title: 'Storybook to Surge'
 github_url: 'https://github.com/codeship/storybook-surge-github-action'
 author: 'codeship'
+tags: []
 subtitle: 'This action will take an existing storybook configuration and deploy that storybook to branch specific static surge.sh sites. Intended to be set up on `push`.'
 ---
 
