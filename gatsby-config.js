@@ -43,6 +43,13 @@ module.exports = {
         plugins: [], // just in case those previously mentioned remark plugins sound cool :)
       },
     },
+    {
+      resolve: `gatsby-plugin-netlify-functions`,
+      options: {
+        functionsSrc: `${__dirname}/src/functions`,
+        functionsOutput: `${__dirname}/functions`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
