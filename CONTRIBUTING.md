@@ -18,7 +18,7 @@ In particular, if you have a large PR you want to send our way, it may make sens
 
 ## Adding your configuration to github-actions
 
-You can add your action to the website by creating a [new file md in `/actions directory`](https://github.com/boyney123/github-actions/new/master?filename=src/actions/your-name.md) with this template:
+You can add your action to the website by creating a [new file md in `/actions directory`](https://github.com/boyney123/github-actions/new/master?filename=src/actions/your-action.md) with this template:
 
 ```m
 ---
