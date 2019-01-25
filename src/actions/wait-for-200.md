@@ -3,6 +3,7 @@ path: '/wait-for-200'
 title: 'Wait for 200'
 github_url: 'https://github.com/maddox/actions'
 author: 'maddox'
+tags: []
 subtitle: 'Wait till the host is up. This action will simply check that a URL is returning a `200` HTTP status code before completing. You have the option to set how many seconds between checks and how many tries before it exits in failure.'
 ---
 

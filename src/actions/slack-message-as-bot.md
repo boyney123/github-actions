@@ -3,6 +3,7 @@ path: '/slack-message-as-bot'
 title: 'Slack Message as bot'
 github_url: 'https://github.com/pullreminders/slack-github-action'
 author: 'pullreminders'
+tags: ['slack']
 subtitle: '
 This action wraps the Slack chat.postMessage API method for posting to channels, private groups, and DMs. This action is designed to be used with Slack bot tokens. Slack bots have two main advantages versus user tokens and incoming webhooks: (1) Bots cant be disabled inadvertently when a Slack user is disabled or removed. Slack has written about this in a recent announcement, and (2) Bots offer a powerful range of capabilities that can be leveraged to perform more functions.'
 ---

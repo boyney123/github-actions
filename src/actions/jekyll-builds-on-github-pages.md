@@ -3,6 +3,7 @@ path: '/jekyll-builds-on-github-pages'
 title: 'Custom Jekyll Builds on GitHub Pages'
 github_url: 'https://github.com/BryanSchuetz/jekyll-deploy-gh-pages'
 author: 'BryanSchuetz'
+tags: ['Jekyll', 'github', 'pages']
 subtitle: '
 A GitHub Action for building and deploying a Jekyll repo back to its gh-pages branch. Why not just let GitHub Pages build it? Becaues this way we can use our own custom Jekyll plugins and build scripts.'
 ---

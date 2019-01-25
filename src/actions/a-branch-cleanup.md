@@ -3,6 +3,7 @@ path: '/a-branch-cleanup'
 title: 'A Branch Cleanup'
 github_url: 'https://github.com/jessfraz/branch-cleanup-action'
 author: 'jessfraz'
+tags: ['branch', 'pull-request', 'github']
 subtitle: 'A GitHub action to automatically delete the branch after a pull request has been merged.'
 ---
 

@@ -3,6 +3,7 @@ path: '/release-notify-action'
 title: 'Release notify'
 github_url: 'https://github.com/bitoiu/release-notify-action'
 author: 'bitoiu'
+tags: ['email', 'notification']
 subtitle: 'This repo contains a re-usable GitHub Action that when installed sends an e-mail to a distribution list with the release note contents every time a GitHub Release is created for the repository. This Action makes use of SendGrids API to send the e-mails.'
 ---
 

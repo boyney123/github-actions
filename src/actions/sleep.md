@@ -3,6 +3,7 @@ path: '/sleep'
 title: 'Sleep'
 github_url: 'https://github.com/maddox/actions'
 author: 'maddox'
+tags: []
 subtitle: 'Sometimes you just need to stall a little. This action will simply call sleep for N seconds in case you need a little padding in your workflow.'
 ---
 

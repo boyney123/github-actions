@@ -3,6 +3,7 @@ path: '/phpqa'
 title: 'PHPQA toolsuite'
 github_url: 'https://github.com/mickaelandrieu/phpqa-ga'
 author: 'mickaelandrieu'
+tags: []
 subtitle: 'PHPQA toolsuite action.'
 ---
 

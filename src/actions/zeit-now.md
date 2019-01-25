@@ -3,6 +3,7 @@ path: '/zeit-now'
 title: 'Zeit Now'
 github_url: 'https://github.com/actions/zeit-now'
 author: 'GitHub'
+tags: []
 subtitle: 'This Action wraps the Now CLI to enable common Now commands.'
 ---
 

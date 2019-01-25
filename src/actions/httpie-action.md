@@ -3,6 +3,7 @@ path: '/httpie-action'
 title: 'Httpie'
 github_url: 'https://github.com/swinton/httpie-action'
 author: 'swinton'
+tags: ['http', 'cli']
 subtitle: 'A general purpose HTTP client for GitHub Actions, wrapping the HTTPie CLI to enable human-friendly interactions with third-party web services that expose an API over HTTP in your development workflow.'
 ---
 

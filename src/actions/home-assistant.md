@@ -3,6 +3,7 @@ path: '/home-assistant'
 title: 'Home Assistant'
 github_url: 'https://github.com/maddox/actions'
 author: 'maddox'
+tags: ['github', 'google', 'home', 'assistant']
 subtitle: 'Control your home via Home Assistant. This action allows you to make a service call to your Home Assistant instance. Blink a light when a deploy is done, set your lights to green when CI goes green, lock your front door until the deploy is complete. Of course you want to incorporate your smart devices into your GitHub workflow!'
 ---
 

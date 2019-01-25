@@ -3,6 +3,7 @@ path: '/run-github-actions-locally'
 title: 'Github actions locally'
 github_url: 'https://github.com/nektos/act'
 author: 'nektos'
+tags: ['local', 'github']
 subtitle: 'Run your GitHub Actions locally!'
 ---
 

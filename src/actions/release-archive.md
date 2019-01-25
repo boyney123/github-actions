@@ -3,6 +3,7 @@ path: '/release-archive'
 title: 'Release Archive'
 github_url: 'https://github.com/lubusIN/actions'
 author: 'lubusIN'
+tags: ['zip']
 subtitle: 'Github action to create release zip archive.'
 ---
 

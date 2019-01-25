@@ -3,6 +3,7 @@ path: '/send-emails'
 title: 'Send Emails'
 github_url: 'https://github.com/cirrus-actions/email'
 author: 'cirrus-actions'
+tags: ['email']
 subtitle: 'This is a simple GitHub action that allows to send emails when a GitHub Check Suite completes.'
 ---
 
