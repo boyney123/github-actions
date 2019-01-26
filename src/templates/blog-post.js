@@ -1,8 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import urljoin from 'url-join'
 
 import Layout from '../components/layout'
+import ActionHeader from '../components/ActionHeader'
 
 import './blog-post.css'
 
@@ -13,12 +15,22 @@ export default function Template({ data }) {
 
   const creator = twitter ? twitter : author
 
+  const urlParts = github_url.split('github.com')
+  const repoPath = urlParts[urlParts.length - 1]
+  const starBadgeUrl = `${urljoin(
+    'https://img.shields.io/github/stars',
+    repoPath
+  )}.svg?style=social`
+
   const tweet = encodeURIComponent(
     `Check out this GitHub action: ${title} from ${creator}: https://github-actions.netlify.com/${path} 👍 #github`
   )
 
   return (
-    <Layout className="blog-post-container">
+    <Layout
+      className="blog-post-container"
+      header={<ActionHeader {...frontmatter} />}
+    >
       <Helmet title={`Github-Actions - ${frontmatter.title}`}>
         <script
           async
@@ -41,7 +53,9 @@ export default function Template({ data }) {
         <a className="back-button button" href="/">
           <i class="fas fa-arrow-left" /> Back
         </a>
+        <hr />
         <h1>{title}</h1>
+        <img className="github-stars" src={starBadgeUrl} />
         <p>{subtitle}</p>
 
         <a href={`${github_url}`} target="_blank">

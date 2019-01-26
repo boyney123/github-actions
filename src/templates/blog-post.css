@@ -6,6 +6,10 @@
   padding: 0 60px;
 }
 
+.blog-post .github-stars {
+  width: 100px;
+}
+
 .blog-post .back-button i {
   margin-right: 10px;
 }

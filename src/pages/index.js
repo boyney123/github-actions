@@ -6,6 +6,7 @@ import Fuse from 'fuse.js'
 
 import Layout from '../components/layout'
 import ActionCard from '../components/Action-Card'
+import SiteHeader from '../components/SiteHeader'
 
 class IndexPage extends Component {
   state = {
@@ -42,7 +43,14 @@ class IndexPage extends Component {
       this.state.filter !== '' ? fuse.search(this.state.filter) : items
 
     return (
-      <Layout count={edges.length} handleFilter={this.handleFilter.bind(this)}>
+      <Layout
+        header={
+          <SiteHeader
+            handleFilter={this.handleFilter.bind(this)}
+            count={edges.length}
+          />
+        }
+      >
         <div className="container is-fluid">
           <div className="columns is-multiline">
             {filteredItems.length > 0 &&
