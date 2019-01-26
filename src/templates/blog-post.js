@@ -14,7 +14,7 @@ export default function Template({ data }) {
   const creator = twitter ? twitter : author
 
   const tweet = encodeURIComponent(
-    `Check out this GitHub action: ${title} from ${creator}: https://github-actions.netlify.com/${path} 👍`
+    `Check out this GitHub action: ${title} from ${creator}: https://github-actions.netlify.com/${path} 👍 #github`
   )
 
   return (
