@@ -18,3 +18,12 @@
 .blog-post hr {
   margin: 40px 0;
 }
+
+.button.twitter-button {
+  background: #0096e7;
+  color: white;
+}
+
+.button.twitter-button i {
+  margin-right: 10px;
+}

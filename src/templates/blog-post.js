@@ -9,7 +9,14 @@ import './blog-post.css'
 export default function Template({ data }) {
   const { markdownRemark: post } = data
   const { frontmatter } = post
-  const { title, subtitle, github_url, twitter } = frontmatter
+  const { title, subtitle, github_url, twitter, path, author } = frontmatter
+
+  const creator = twitter ? twitter : author
+
+  const tweet = encodeURIComponent(
+    `Check out this GitHub action: ${title} from ${creator}: https://github-actions.netlify.com/${path} 👍`
+  )
+
   return (
     <Layout className="blog-post-container">
       <Helmet title={`Github-Actions - ${frontmatter.title}`}>
@@ -41,6 +48,15 @@ export default function Template({ data }) {
           {github_url}
         </a>
 
+        <div className="mt20">
+          <a
+            className="button twitter-button"
+            href={`https://twitter.com/intent/tweet?text=${tweet}`}
+          >
+            <i class="fab fa-twitter" /> Share this action
+          </a>
+        </div>
+
         <hr />
         <div
           className="blog-post-content"
@@ -57,6 +73,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         path
+        author
         title
         subtitle
         github_url
