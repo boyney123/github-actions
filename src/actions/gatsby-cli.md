@@ -1,5 +1,5 @@
 ---
-path: '/gatsby-cli-github-action'
+path: '/gatsby-cli'
 title: 'Gatsby CLI'
 github_url: 'https://github.com/jzweifel/gatsby-cli-github-action'
 author: 'Jacob Zweifel'
