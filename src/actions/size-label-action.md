@@ -1,9 +1,10 @@
 ---
-path: '/size-label-action'
+path: '/size-label'
 title: 'Assign size labels'
 github_url: 'https://github.com/pascalgn/size-label-action'
 author: 'Pascal'
 twitter: '@pascalgn'
+tags: ['label', 'assign']
 subtitle: 'GitHub action to assign labels based on pull request change sizes.'
 ---
 
