@@ -29,7 +29,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run build:functions && gatsby build",
+    "build:functions": "netlify-lambda build src/functions",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
