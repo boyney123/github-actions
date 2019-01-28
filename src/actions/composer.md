@@ -4,7 +4,7 @@ title: 'Composer'
 github_url: 'https://github.com/pxgamer/composer-action'
 author: 'Owen Voke'
 twitter: '@pxgamer112'
-tags: [php, composer]
+tags: ['php', 'composer']
 subtitle: 'GitHub Action for interacting with Composer.'
 ---
 
