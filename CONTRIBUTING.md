@@ -27,6 +27,7 @@ title: 'My New Action'
 github_url: 'https://github.com/action-url'
 author: 'David Boyne'
 twitter: '@boyney123'
+tags: ['tagExample']
 subtitle: 'My new action that does some super cool things.'
 ---
 
