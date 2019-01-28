@@ -5,10 +5,10 @@ const SiteHeader = ({ handleFilter, count }) => {
     <section className="main hero is-primary is-medium">
       <div className="hero-body">
         <div className="container has-text-centered">
-          <h1 className="title">GitHub Actions List</h1>
+          <h1 className="title">GitHub Actions</h1>
 
           <h2 className="subtitle">
-            Automate your workflow from idea to production.
+            Built to help developers find GitHub Actions.
           </h2>
           <div>
             <input
