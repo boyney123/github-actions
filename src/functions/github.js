@@ -9,6 +9,7 @@ const getReadme = async url => {
       url: urljoin(url, '/readme'),
       headers: {
         'user-agent': 'github-actions-things',
+        Authorization: `token ${process.env.GITHUB_TOKEN}`,
       },
       json: true,
     })
@@ -27,6 +28,7 @@ const getTopicsForRepo = async url => {
       headers: {
         'user-agent': 'github-actions-things',
         Accept: 'application/vnd.github.mercy-preview+json',
+        Authorization: `token ${process.env.GITHUB_TOKEN}`,
       },
       json: true,
     })
@@ -57,6 +59,7 @@ exports.handler = async function(event, context, callback) {
       url,
       headers: {
         'user-agent': 'github-actions-things',
+        Authorization: `token ${process.env.GITHUB_TOKEN}`,
       },
       json: true,
     })
