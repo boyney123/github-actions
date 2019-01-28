@@ -78,6 +78,7 @@ exports.handler = async function(event, context, callback) {
       frontmatter: [
         {
           path: `/materials/${name}`,
+          title: name,
           github_url,
           author: login,
           subtitle: description,
