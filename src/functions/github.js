@@ -1,7 +1,7 @@
-import request from 'request-promise'
-import urljoin from 'url-join'
+const request = require('request-promise')
+const urljoin = require('url-join')
 
-import transformAndWriteToFile from 'json-to-frontmatter-markdown/lib/transformToMarkdownString'
+const transformAndWriteToFile = require('json-to-frontmatter-markdown/lib/transformToMarkdownString')
 
 const getReadme = async url => {
   try {
@@ -42,7 +42,7 @@ exports.handler = async function(event, context, callback) {
   try {
     const { queryStringParameters: { url: github_url } = {} } = event
 
-    if (!url) {
+    if (!github_url) {
       return {
         statusCode: 400,
         body: 'Please provide a valid url in the query string',
@@ -74,7 +74,7 @@ exports.handler = async function(event, context, callback) {
       owner: { login } = {},
     } = data
 
-    const payload = await transformAndWriteToFile({
+    const payload = await transformAndWriteToFile.default({
       frontmatter: [
         {
           path: `/materials/${name}`,
