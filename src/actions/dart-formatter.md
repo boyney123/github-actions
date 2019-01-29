@@ -3,7 +3,7 @@ path: '/dart-formatter'
 title: 'Dart & flutter formatter'
 github_url: 'https://github.com/bltavares/actions'
 author: 'bltavares'
-tags: ['dart', 'flutter', 'dartfmt', 'autofixer']
+tags: ['dart', 'flutter', 'dartfmt', 'formatter', 'autofixer']
 subtitle: 'This actions will check the formating of a Dart (or Flutter) project, using dartfmt.'
 ---
 
