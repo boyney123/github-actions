@@ -10,6 +10,8 @@
 
 </div>
 
+<hr/>
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors) [![MIT License][license-badge]][license] [![PRs Welcome][prs-badge]][prs]
 [![Join the community on Spectrum][spectrum-badge]][spectrum]
 
