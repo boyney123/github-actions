@@ -22,7 +22,7 @@ You can add your action to the website by creating a [new file md in `/actions d
 
 You have two options to generate a template:
 
-1. Use wizard magic and use this url to generate you're markdown : [https://github-actions.netlify.com/.netlify/functions/github?{YOUR_GITHUB_URL}](https://github-actions.netlify.com/.netlify/functions/github?{YOUR_GITHUB_URL})
+1. Use wizard magic and use this url to generate you're markdown : [https://github-actions.netlify.com/.netlify/functions/github?url={YOUR_GITHUB_URL}](https://github-actions.netlify.com/.netlify/functions/github?url={YOUR_GITHUB_URL})
 
 2. Copy the contents below.
 
