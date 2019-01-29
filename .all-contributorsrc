@@ -1,0 +1,23 @@
+{
+  "projectName": "github-actions",
+  "projectOwner": "boyney123",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "bltavares",
+      "name": "Bruno Tavares",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/109474?v=4",
+      "profile": "http://bltavares.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
