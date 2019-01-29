@@ -3,7 +3,7 @@ path: '/clojure-formatter'
 title: 'Clojure Formatter'
 github_url: 'https://github.com/bltavares/actions'
 author: 'bltavares'
-tags: []
+tags: ['clojure', 'formatter', 'autofixer']
 subtitle: 'This actions will check the formating of the project, using cljfmt.'
 ---
 
