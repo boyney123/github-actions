@@ -1,5 +1,5 @@
 ---
-path: '/materials/dnscontrol-action'
+path: '/dnscontrol-action'
 title: 'dnscontrol-action'
 github_url: 'https://github.com/koenrh/dnscontrol-action'
 author: 'koenrh'

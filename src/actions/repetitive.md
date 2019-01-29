@@ -1,5 +1,5 @@
 ---
-path: '/materials/repetitive'
+path: '/repetitive'
 title: 'Repetitive Actions'
 github_url: 'https://github.com/repetitive/actions'
 author: 'repetitive'

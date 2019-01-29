@@ -80,7 +80,7 @@ exports.handler = async function(event, context, callback) {
     const payload = await transformAndWriteToFile.default({
       frontmatter: [
         {
-          path: `/materials/${name}`,
+          path: `/${name}`,
           title: name,
           github_url,
           author: login,
