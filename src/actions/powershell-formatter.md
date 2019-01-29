@@ -3,7 +3,7 @@ path: '/powershell-formatter'
 title: 'Powershell formatter'
 github_url: 'https://github.com/bltavares/actions'
 author: 'bltavares'
-tags: ['docker']
+tags: ['powershell', 'formatter', 'autofixer']
 subtitle: 'This actions will check the formating of the Dockerfiles in the project, using Powershell-Beautiffier.'
 ---
 
