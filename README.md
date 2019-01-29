@@ -6,7 +6,7 @@
 
 <p>A open source app to help developers find GitHub Actions.</p>
 
-[openlist.io](openlist.io)
+[openlist.io](https://openlist.io)
 
 </div>
 
