@@ -4,8 +4,8 @@ import './styles.css'
 
 const Footer = () => {
   return (
-    <footer className="footer hero is-primary">
-      <div className="has-text-centered">
+    <footer className="footer hero is-primary is-size-4">
+      <div className="has-text-centered is-size-6">
         <p>An open source list of GitHub Actions️.</p>
         <p>
           <svg
