@@ -10,6 +10,15 @@
   "commit": true,
   "contributors": [
     {
+      "login": "boyney123",
+      "name": "David Boyne",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3268013?v=4",
+      "profile": "https://medium.com/@boyney123",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "bltavares",
       "name": "Bruno Tavares",
       "avatar_url": "https://avatars1.githubusercontent.com/u/109474?v=4",
@@ -19,12 +28,12 @@
       ]
     },
     {
-      "login": "boyney123",
-      "name": "David Boyne",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/3268013?v=4",
-      "profile": "https://medium.com/@boyney123",
+      "login": "pascalgn",
+      "name": "Pascal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/432333?v=4",
+      "profile": "https://twitter.com/pascalgn",
       "contributions": [
-        "code"
+        "doc"
       ]
     }
   ],
