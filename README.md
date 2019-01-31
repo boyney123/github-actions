@@ -13,6 +13,7 @@
 <hr/>
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors) [![MIT License][license-badge]][license] [![PRs Welcome][prs-badge]][prs]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/135bba3e-819f-41a7-86f7-bc93cfecd07d/deploy-status)](https://app.netlify.com/sites/github-actions/deploys)
 [![Join the community on Spectrum][spectrum-badge]][spectrum]
 
 ## Motivation
