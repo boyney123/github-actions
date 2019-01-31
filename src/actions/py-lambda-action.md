@@ -4,7 +4,7 @@ title: "py-lambda-action"
 github_url: "https://github.com/mariamrf/py-lambda-action"
 author: "mariamrf"
 subtitle: "A Github Action to deploy AWS Lambda functions written in Python with their dependencies in a separate layer."
-tags: []
+tags: ["actions","aws","lambda","lambda-layer"]
 ---
 # py-lambda-action
 A Github Action to deploy AWS Lambda functions written in Python with their dependencies in a separate layer. For now, only works with Python 3.6.
