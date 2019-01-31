@@ -71,6 +71,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jonico",
+      "name": "Johannes Nicolai",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1872314?v=4",
+      "profile": "https://github.com/jonico",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
