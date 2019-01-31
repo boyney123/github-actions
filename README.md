@@ -20,7 +20,7 @@
 
 [Github Actions](https://css-tricks.com/introducing-github-actions/) are currently in beta and I believe they are game changing.
 
-Here is a great podcast that inspired me to write this website: [GitHub Actions is the next big thing](https://changelog.com/podcast/331.)
+Here is a great podcast that inspired me to write this website: [GitHub Actions is the next big thing](https://changelog.com/podcast/331)
 
 I'm excited to see what people build and also discover new actions that are available. You can checkout [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions) which has some great resource on it!
 
