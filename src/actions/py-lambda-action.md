@@ -1,6 +1,6 @@
 ---
-path: "/py-lambda-action"
-title: "py-lambda-action"
+path: "/py-lambda"
+title: "py-lambda"
 github_url: "https://github.com/mariamrf/py-lambda-action"
 author: "mariamrf"
 subtitle: "A Github Action to deploy AWS Lambda functions written in Python with their dependencies in a separate layer."
