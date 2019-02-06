@@ -80,6 +80,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Ilshidur",
+      "name": "Nicolas Coutin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6564012?v=4",
+      "profile": "https://nicolas-coutin.fr",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
