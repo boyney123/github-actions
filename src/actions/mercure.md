@@ -10,7 +10,7 @@ tags: ["mercure","server-sent-events","live-updates","push","subscription"]
 
 Send a [Mercure](https://mercure.rocks) publish event. Simple as that.
 
-![GitHub Action](action.png "GitHub Action")
+![GitHub Action](https://github.com/Ilshidur/action-mercure/raw/master/action.png "GitHub Action")
 
 <hr/>
 
