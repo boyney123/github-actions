@@ -6,7 +6,6 @@ author: "maxheld83"
 subtitle: "Actions and accompanying rstats package to do R things via GitHub actions."
 tags: ["github-actions","rstats","setup","github","cicd","continous-integration","continous-delivery","devops","data-science"]
 ---
-# GitHub actions for R 
 
 <img src="https://github.com/maxheld83/ghactions/blob/master/logo.png?raw=true" width=200/ align="right" style="padding-left: 20px">
 
@@ -15,7 +14,6 @@ tags: ["github-actions","rstats","setup","github","cicd","continous-integration"
 [![CRAN status](https://www.r-pkg.org/badges/version/ghactions)](https://cran.r-project.org/package=ghactions)
 [![codecov](https://codecov.io/gh/maxheld83/ghactions/branch/master/graph/badge.svg)](https://codecov.io/gh/maxheld83/ghactions)
 [![License: MIT](https://img.shields.io/github/license/maxheld83/ghactions.svg?style=flat)](https://opensource.org/licenses/MIT)
-
 
 [GitHub actions](https://github.com/features/actions) are a new workflow automation feature of the popular code repository host GitHub.
 The product is currently in **limited beta**.
