@@ -6,7 +6,9 @@ author: "maxheld83"
 subtitle: "Actions and accompanying rstats package to do R things via GitHub actions."
 tags: ["github-actions","rstats","setup","github","cicd","continous-integration","continous-delivery","devops","data-science"]
 ---
-# GitHub actions for R <img src="https://github.com/maxheld83/ghactions/blob/master/logo.png?raw=true" align="right" height=140/>
+# GitHub actions for R 
+
+<img src="https://github.com/maxheld83/ghactions/blob/master/logo.png?raw=true" width=200/ align="right" style="padding-left: 20px">
 
 [![Actions Status](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/badge/maxheld83/ghactions)](https://github.com/maxheld83/ghactions/actions)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
