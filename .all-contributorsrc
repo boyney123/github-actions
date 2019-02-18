@@ -99,6 +99,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ldez",
+      "name": "Ludovic Fernandez",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5674651?v=4",
+      "profile": "https://twitter.com/ludnadez",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
