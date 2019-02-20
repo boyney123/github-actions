@@ -1,6 +1,6 @@
 ---
-path: "/pr-status-giphy-action"
-title: "pr-status-giphy-action"
+path: "/pr-status-giphy"
+title: "Pull Request Status Giphy Action"
 github_url: "https://github.com/jzweifel/pr-status-giphy-action"
 author: "jzweifel"
 subtitle: "A GitHub Action that displays a random thumbs up or thumbs down gif from giphy when pull request checks finish. "
