@@ -7,3 +7,7 @@ footer p {
   font-size: 1.3em;
   padding: 3rem 1.5rem 3rem !important;
 }
+
+.footer svg {
+  vertical-align: middle;
+}
