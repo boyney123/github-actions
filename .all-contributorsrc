@@ -144,6 +144,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "MrRhodes",
+      "name": "Stephen Rhodes",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/130488?v=4",
+      "profile": "http://www.linkedin.com/in/sterhodes",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
