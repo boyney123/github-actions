@@ -117,6 +117,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jeffpaul",
+      "name": "Jeffrey Paul",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2818133?v=4",
+      "profile": "https://jeffpaul.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
