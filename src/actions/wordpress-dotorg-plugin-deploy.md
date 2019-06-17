@@ -1,7 +1,7 @@
 ---
 path: "/wordpress-dotorg-plugin-deploy"
 title: "WordPress.org Plugin Deploy"
-github_url: "https://github.com/10up/actions-wordpress/tree/develop/dotorg-plugin-deploy"
+github_url: "https://github.com/10up/actions-wordpress"
 author: "10up"
 twitter: "@10up"
 subtitle: "GitHub Actions for WordPress!"
