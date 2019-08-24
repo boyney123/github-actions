@@ -1,7 +1,7 @@
 ---
 path: '/wp-text-domain'
 title: 'WP Text Domain - Github Action'
-github_url: 'https://github.com/wpapps/wp-text-domain'
+github_url: 'https://github.com/varunsridharan/action-wp-textdomain'
 author: 'Varun Sridharan'
 tags: ['wordpress']
 subtitle: 'Add Text Domain To Your WordPress Plugin / Themes On The Fly'
@@ -12,29 +12,37 @@ subtitle: 'Add Text Domain To Your WordPress Plugin / Themes On The Fly'
 </p>
 
 <p align="center">
-<a href="https://github.com/wpapps/wp-text-domain"><img src="https://img.shields.io/github/license/wpapps/wp-text-domain.svg" alt="Licence"></a>
-<a href="https://github.com/wpapps/wp-text-domain"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs"></a>
+<a href="https://github.com/varunsridharan/action-wp-textdomain"><img src="https://img.shields.io/github/license/varunsridharan/action-wp-textdomain.svg" alt="Licence"></a>
+<a href="https://github.com/varunsridharan/action-wp-textdomain"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs"></a>
 </p>
 
 # WP Text Domain - ***Github Action***
 This Action Adds TextDomain To your wordpress Plugin / Theme based on the content inside Github Repo
 
 ## Configuration
-* `DOMAIN` - Slug of your WordPress Theme / Plugin Slug  **Required**
+* `domain` - Slug of your WordPress Theme / Plugin Slug  **Required**
 * `GITHUB_TOKEN` - you do not need to generate one but you do have to explicitly make it available to the Action
 
-## Example Workflow File
-```
-workflow "Deploy" {
-resolves = ["WP Text Domain"]
-on = "push"
-}
+> **⚠️ Note:** You Should Provide Github Token. If Not No Updated File Will Be Committed & Pushed
 
-action "WP Text Domain" {
-uses = "wpapps/wp-text-domain@master"
-env = {
-DOMAIN = "your-textdomain"
-}
-secrets = ["GITHUB_TOKEN"]
-}
+## Example Workflow File
+```yaml
+name: WordPress Textdomain
+
+on:
+  push:
+    branches:
+    - refs/tags/*
+
+jobs:
+  envatoftp:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: WordPress Textdomain
+      uses: varunsridharan/action-wp-textdomain@master
+      with:
+        domain: 'wponion'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
