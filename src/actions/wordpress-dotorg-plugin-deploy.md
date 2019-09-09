@@ -4,7 +4,7 @@ title: "WordPress.org Plugin Deploy"
 github_url: "https://github.com/10up/action-wordpress-plugin-deploy"
 author: "10up"
 twitter: "@10up"
-subtitle: "GitHub Actions for WordPress!"
+subtitle: "Deploy your plugin to the WordPress.org repository using GitHub Actions."
 tags: [wordpress,plugin,deploy]
 ---
 # WordPress.org Plugin Deploy
