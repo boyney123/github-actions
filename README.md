@@ -12,7 +12,7 @@
 
 <hr/>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-) [![MIT License][license-badge]][license] [![PRs Welcome][prs-badge]][prs]
+[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-) [![MIT License][license-badge]][license] [![PRs Welcome][prs-badge]][prs]
 [![Netlify Status](https://api.netlify.com/api/v1/badges/135bba3e-819f-41a7-86f7-bc93cfecd07d/deploy-status)](https://app.netlify.com/sites/github-actions/deploys)
 [![Join the community on Spectrum][spectrum-badge]][spectrum]
 
@@ -58,6 +58,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="http://varunsridharan.in"><img src="https://avatars1.githubusercontent.com/u/1884287?v=4" width="100px;" alt="Varun Sridharan"/><br /><sub><b>Varun Sridharan</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=varunsridharan" title="Documentation">📖</a></td>
     <td align="center"><a href="https://shivammathur.com"><img src="https://avatars1.githubusercontent.com/u/1571086?v=4" width="100px;" alt="Shivam Mathur"/><br /><sub><b>Shivam Mathur</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=shivammathur" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/tnc1997"><img src="https://avatars1.githubusercontent.com/u/17160067?v=4" width="100px;" alt="Thomas Clark"/><br /><sub><b>Thomas Clark</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=tnc1997" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://marvinjwendt.com"><img src="https://avatars0.githubusercontent.com/u/31022056?v=4" width="100px;" alt="MarvinJWendt"/><br /><sub><b>MarvinJWendt</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=MarvinJWendt" title="Documentation">📖</a></td>
   </tr>
 </table>
 
