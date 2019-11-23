@@ -198,6 +198,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "webknjaz",
+      "name": "Sviatoslav Sydorenko",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/578543?v=4",
+      "profile": "https://webknjaz.me",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

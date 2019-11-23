@@ -61,6 +61,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="https://marvinjwendt.com"><img src="https://avatars0.githubusercontent.com/u/31022056?v=4" width="100px;" alt="MarvinJWendt"/><br /><sub><b>MarvinJWendt</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=MarvinJWendt" title="Documentation">📖</a></td>
     <td align="center"><a href="http://interversehq.com"><img src="https://avatars0.githubusercontent.com/u/10716694?v=4" width="100px;" alt="Benjamin O"/><br /><sub><b>Benjamin O</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=jurplel" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://webknjaz.me"><img src="https://avatars2.githubusercontent.com/u/578543?v=4" width="100px;" alt="Sviatoslav Sydorenko"/><br /><sub><b>Sviatoslav Sydorenko</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=webknjaz" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
