@@ -207,6 +207,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "barnumbirr",
+      "name": "Martin Simon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2029239?v=4",
+      "profile": "https://martinsimon.me/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
