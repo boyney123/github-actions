@@ -66,6 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="https://martinsimon.me/"><img src="https://avatars1.githubusercontent.com/u/2029239?v=4" width="100px;" alt="Martin Simon"/><br /><sub><b>Martin Simon</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=barnumbirr" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.cycjimmy.tech"><img src="https://avatars1.githubusercontent.com/u/19383787?v=4" width="100px;" alt="Geoffrey.C"/><br /><sub><b>Geoffrey.C</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=cycjimmy" title="Documentation">📖</a></td>
     <td align="center"><a href="http://ochrona.jawne.info.pl"><img src="https://avatars1.githubusercontent.com/u/3618479?v=4" width="100px;" alt="Adam Dobrawy"/><br /><sub><b>Adam Dobrawy</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=ad-m" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://blog.merzlabs.com/authors/niklas-merz/"><img src="https://avatars0.githubusercontent.com/u/3585860?v=4" width="100px;" alt="Niklas Merz"/><br /><sub><b>Niklas Merz</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=NiklasMerz" title="Documentation">📖</a></td>
   </tr>
 </table>
 

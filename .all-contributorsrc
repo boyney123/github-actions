@@ -234,6 +234,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "NiklasMerz",
+      "name": "Niklas Merz",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3585860?v=4",
+      "profile": "https://blog.merzlabs.com/authors/niklas-merz/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
