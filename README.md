@@ -70,6 +70,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="https://sobolevn.me"><img src="https://avatars1.githubusercontent.com/u/4660275?v=4" width="100px;" alt=""/><br /><sub><b>Nikita Sobolev</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=sobolevn" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/y-mehta"><img src="https://avatars1.githubusercontent.com/u/24428063?v=4" width="100px;" alt=""/><br /><sub><b>Yash Mehta</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=y-mehta" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://stefanzweifel.io"><img src="https://avatars3.githubusercontent.com/u/1080923?v=4" width="100px;" alt=""/><br /><sub><b>Stefan Zweifel</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=stefanzweifel" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->

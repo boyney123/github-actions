@@ -261,6 +261,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "stefanzweifel",
+      "name": "Stefan Zweifel",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1080923?v=4",
+      "profile": "https://stefanzweifel.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
