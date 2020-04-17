@@ -12,6 +12,8 @@ subtitle: 'This actions is to automate the deploy of okteto (similar to okteto p
 This repository contains a bunch of actions to behave like the okteto CLI,
 you can find more info in their repository
 
+Learn more about okteto [here](https://okteto.com/docs/getting-started/index.html)
+
 ## Usage
 
 Below you'll find my script to deploy your app to the cloud (similar to okteto push)
