@@ -19,15 +19,21 @@ or whatever extension you want instead of MD.**_ This
 is so that GitHub doesn't automatically make a Home.md
 for you again.
 
-Take a look at [action.yml](https://github.com/Andrew-Chen-Wang/github-wiki-action/blob/master/action.yml)
-for all inputs.
-
 Table of Contents:
-- Usage
 - Features
+- Usage
+- Inputs
 - Inspiration
 - License
 - Non-Affiliation with Github Inc.
+
+---
+### Features
+
+- rsync all your files from one directory (either from the current or other repository) to your GitHub's repo's wiki.
+    - rsyncing from a different repository requires a [GitHub PAT](https://github.com/settings/tokens/new?scopes=repo&description=wiki%20page%20creator%20token)
+- Use the commit message from your repository's git's commit. You can specify a custom one if you want.
+- Be able to exclude files and directories based on an input of a list.
 
 ---
 ### Usage
@@ -74,11 +80,17 @@ directory, you're going to need a Personal Access Token instead of the `GITHUB_T
 with the minimal scopes [seen here.](https://github.com/settings/tokens/new?scopes=repo&description=wiki%20page%20creator%20token)
 
 ---
-### Features
+### Inputs
 
-- rsync all your files from one directory (either from the current or other repository) to your GitHub's repo's wiki.
-    - rsyncing from a different repository requires a [GitHub PAT](https://github.com/settings/tokens/new?scopes=repo&description=wiki%20page%20creator%20token)
-- Be able to exclude files and directories based on an input of a list.
+| Argument | Required | Default value | Description |
+|----------|----------|---------------|-------------|
+| WIKI_DIR | No | wiki/ | Directory to rsync files to the wiki.(https://github.com/settings/tokens/new?scopes=repo). |
+| GH_TOKEN | Yes | | The GitHub Token for this action to use. Specify `${{ secrets.GITHUB_TOKEN }}`. |
+| GH_MAIL | Yes | | The email associated with the token. |
+| GH_NAME | Yes | | The username associated with the token. |
+| EXCLUDED_FILES | No | | The files or directories you want to exclude. Note, we use rsync |
+| REPO | No | `${{ github.repository }}` | The target repository. Default is the current repo. If you specify a different repository (e.g. Andrew-Chen-Wang/github-wiki-action), then you must use a PAT. |
+| WIKI_PUSH_MESSAGE | No | Your commit's message | The message to add to your commit to the wiki git |
 
 ---
 ### Inspiration
