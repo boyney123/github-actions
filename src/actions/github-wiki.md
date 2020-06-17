@@ -6,7 +6,7 @@ author: "Andrew-Chen-Wang"
 subtitle: "Updates your GitHub wiki by using rsync"
 tags: ["actions","wiki","github-actions"]
 ---
-# Andrew-Chen-Wang/github-wiki-action@v1.1.0
+# Andrew-Chen-Wang/github-wiki-action@v2
 Updates your GitHub wiki by using rsync.
 
 This action updates your repository's wiki
@@ -21,6 +21,13 @@ for you again.
 
 Take a look at [action.yml](https://github.com/Andrew-Chen-Wang/github-wiki-action/blob/master/action.yml)
 for all inputs.
+
+Table of Contents:
+- Usage
+- Features
+- Inspiration
+- License
+- Non-Affiliation with Github Inc.
 
 ---
 ### Usage
@@ -51,7 +58,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Push Wiki Changes
-      uses: Andrew-Chen-Wang/github-wiki-action@v1.1.0
+      uses: Andrew-Chen-Wang/github-wiki-action@v2
       env:
         # Make sure you have that / at the end. We use rsync 
         # WIKI_DIR's default is wiki/
@@ -59,6 +66,7 @@ jobs:
         GH_PAT: ${{ secrets.GITHUB_TOKEN }}
         GH_MAIL: ${{ secrets.YOUR_EMAIL }}
         GH_NAME: ${{ github.repository_owner }}
+        EXCLUDED_FILES: "a/ b.md"
 ```
 
 If you plan on having a different repository host your wiki
@@ -66,15 +74,21 @@ directory, you're going to need a Personal Access Token instead of the `GITHUB_T
 with the minimal scopes [seen here.](https://github.com/settings/tokens/new?scopes=repo&description=wiki%20page%20creator%20token)
 
 ---
+### Features
+
+- rsync all your files from one directory (either from the current or other repository) to your GitHub's repo's wiki.
+    - rsyncing from a different repository requires a [GitHub PAT](https://github.com/settings/tokens/new?scopes=repo&description=wiki%20page%20creator%20token)
+- Be able to exclude files and directories based on an input of a list.
+
+---
+### Inspiration
 This intended usage was to avoid hosting a private ReadTheDocs
 and instead just use GitHub wiki.
 
 Largely inspired by [wiki-page-creator-action](https://github.com/Decathlon/wiki-page-creator-action)
 and the [issue that arose from it](https://github.com/Decathlon/wiki-page-creator-action/issues/11),
 this GitHub action tries to update the entire wiki based on a single
-directory. It is not as rich in functionality (i.e. the only missing
-functionality is that you can't skip files), but it addresses
-the issue of deleting Wiki pages.
+directory.
 
 ---
 ### License
@@ -94,3 +108,9 @@ the issue of deleting Wiki pages.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
+
+---
+### Non-Affiliation with GitHub Inc.
+
+This repository/action and its creator is not affiliated with
+GitHub Inc.
