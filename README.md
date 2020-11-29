@@ -74,6 +74,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="https://stefanzweifel.io"><img src="https://avatars3.githubusercontent.com/u/1080923?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan Zweifel</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=stefanzweifel" title="Documentation">📖</a></td>
     <td align="center"><a href="https://ravgeet.dev/"><img src="https://avatars0.githubusercontent.com/u/27858510?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ravgeet Dhillon</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=ravgeetdhillon" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Andrew-Chen-Wang"><img src="https://avatars0.githubusercontent.com/u/60190294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew Chen Wang</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=Andrew-Chen-Wang" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://petr.ruzicka.dev/"><img src="https://avatars2.githubusercontent.com/u/1434387?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Petr Ruzicka</b></sub></a><br /><a href="https://github.com/boyney123/github-actions/commits?author=ruzickap" title="Documentation">📖</a></td>
   </tr>
 </table>
 

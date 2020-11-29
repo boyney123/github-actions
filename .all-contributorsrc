@@ -288,6 +288,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ruzickap",
+      "name": "Petr Ruzicka",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1434387?v=4",
+      "profile": "https://petr.ruzicka.dev/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
