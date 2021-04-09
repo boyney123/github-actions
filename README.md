@@ -6,7 +6,7 @@
 
 <p>A open source app to help developers find GitHub Actions.</p>
 
-[https://github-actions.explore-tech.org/](https://github-actions.explore-tech.org/)
+[https://github-actions.netlify.app/](https://github-actions.netlify.app/)
 
 </div>
 
